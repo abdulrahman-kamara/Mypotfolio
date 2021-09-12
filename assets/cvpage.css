@@ -1,0 +1,169 @@
+    @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Vollkorn SC', serif;
+        background: rgba(131, 203, 255, 0.721);
+        background: linear-gradient(90deg, rgba(131, 203, 255, 1) 7%, rgba(240, 254, 255, 1) 100%, rgba(0, 140, 255, 0.495) 100%);
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main .img-banner {
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 30px;
+    }
+    
+    .main h1 {
+        margin-top: 30px;
+        padding: 10px;
+        line-height: 44px;
+    }
+    
+    .main h4 {
+        margin-top: 30px;
+    }
+    
+    .lettre h2 {
+        font-size: 16px;
+        padding-left: 20px;
+        text-align: flex-start;
+        margin-bottom: -40px;
+    }
+    
+    .lettre h6 {
+        display: flex;
+        justify-content: content;
+        text-align: center;
+        padding: 60px 30px 30px 60px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .lettre .para a {
+        color: #ffff;
+        text-decoration: none;
+        justify-content: center;
+        padding-left: 500px;
+        font-size: 40px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0 auto;
+        max-width: auto;
+        margin: 0 auto;
+        margin-top: 0;
+        box-sizing: border-box;
+        border: 1px solid #f3f3f3cb;
+        border-radius: 5px;
+        background: rgb(131, 203, 255);
+        background: linear-gradient(90deg, rgb(61, 74, 83) 7%, rgb(61, 101, 104) 86%, rgba(0, 140, 255, 0.571) 100%);
+    }
+    
+    #link {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    #link a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 10px;
+    }
+    
+    .fas {
+        color: blue;
+    }
+    
+    .fa-1g {
+        color: black;
+    }
+    
+    .fa-2g {
+        color: rgb(215, 24, 24);
+    }
+    
+    .fa-4g {
+        color: blue;
+    }
+    
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    @media screen and (max-width: 760px) {
+        .navbar {
+            position: relative;
+        }
+        #nav-links {
+            position: fixed;
+            background: rgb(112, 109, 165);
+            height: 1000vh;
+            width: 100%;
+            flex-direction: column;
+            clip-path: circle(100px at 90% -10%);
+            -webkit-clip-path: circle(100px at 90% -10%);
+            transition: all 1s ease-out;
+            -webkit-transition: all 1s ease-out;
+            -moz-transition: all 1s ease-out;
+            -ms-transition: all 1s ease-out;
+            -o-transition: all 1s ease-out;
+            /* margin: 50px; */
+            pointer-events: none;
+        }
+        #nav-links li {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #nav-links.open {
+            clip-path: circle(1000px at 90% -10%);
+            -webkit-clip-path: circle(1000px at 90% -10%);
+            pointer-events: all;
+        }
+        .navbar .logo img {
+            display: flex;
+            height: 66px;
+            width: 70px;
+            margin-right: 10px;
+            line-height: 50px;
+            margin-bottom: 5px;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            filter: inline(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border-radius: 100px;
+            margin-top: 5px;
+            -webkit-filter: inline(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        #sidebar {
+            display: flex;
+        }
+    }

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Vollkorn SC', serif;
+    background: rgba(131, 203, 255, 0.721);
+    background: linear-gradient(90deg, rgba(131, 203, 255, 1) 7%, rgba(240, 254, 255, 1) 100%, rgba(0, 140, 255, 0.495) 100%);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main .img-banner {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 30px;
+}
+
+.main h1 {
+    margin-top: 30px;
+    padding: 10px;
+    line-height: 44px;
+}
+
+.main h4 {
+    margin-top: 30px;
+}
+
+#article h5 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 40px;
+}
+
+#article {
+    display: flex;
+    justify-content: content;
+    text-align: center;
+    padding: 50px 30px 30px 50px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#article p {
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+#article:hover p {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 20px;
+    transition-delay: 0.3s;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 400px;
+    margin-top: 30px;
+}
+
+.section .camp h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.section .card {
+    max-width: 200px;
+    height: 115px;
+    margin: 30px 20px 30px;
+    padding: 20px 15px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.section .card .card-img img {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .section h3 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+} */
+
+
+/* aside {
+    max-width: 200px;
+    height: 115px;
+    margin: 30px 20px 30px;
+    padding: 20px 15px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: -200px;
+} */
+
+
+/* aside .card .card-img img {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+} */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+    max-width: auto;
+    margin: 0 auto;
+    margin-top: 0;
+    box-sizing: border-box;
+    border: 1px solid #f3f3f3cb;
+    border-radius: 5px;
+    background: rgb(131, 203, 255);
+    background: linear-gradient(90deg, rgb(61, 74, 83) 7%, rgb(61, 101, 104) 86%, rgba(0, 140, 255, 0.571) 100%);
+}
+
+#link {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#link a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+
+.fas {
+    color: blue;
+}
+
+.fa-1g {
+    color: black;
+}
+
+.fa-2g {
+    color: rgb(215, 24, 24);
+}
+
+.fa-4g {
+    color: blue;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 760px) {
+    #sidebar {
+        display: flex;
+        cursor: pointer;
+    }
+    .container-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 300px;
+        margin-left: 50px;
+    }
+}
