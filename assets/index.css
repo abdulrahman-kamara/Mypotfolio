@@ -167,7 +167,7 @@
     .container-body .card .imgBx {
         position: relative;
         width: 260px;
-        height: 260px;
+        height: 250px;
         top: -40px;
         left: 5px;
         z-index: 1;
@@ -193,14 +193,14 @@
     }
     
     .container-body .card .content h2 {
-        margin-top: -60px;
+        margin-top: -10px;
         margin-bottom: .5rem;
         font-weight: 500;
         line-height: 1.2;
     }
     
     .container-body .card:hover .content {
-        margin-top: -60px;
+        margin-top: -30px;
         visibility: visible;
         opacity: 1;
         margin-bottom: 60px;
