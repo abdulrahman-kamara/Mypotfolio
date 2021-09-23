@@ -18,7 +18,7 @@ require_once "./components/header.php";
     <section id=section>
         <div class="card">
             <div class="imgBx">
-                <a href="https://kunta-kante.github.io/Autocomple-lazare-binome/"><img src="./image/autocomplete.webp" alt=""></a>
+                <a href="https://abdulrahman-kamara.github.io/Autocomple-lazare-binome/"><img src="./image/autocomplete.webp" alt=""></a>
 
             </div>
             <div class="content" margin-top="50px">
@@ -29,7 +29,7 @@ require_once "./components/header.php";
         </div>
         <div class="card">
             <div class="imgBx">
-                <a href="https://kunta-kante.github.io/colorchanger/"> <img src="./image/colorchanger.jpeg" alt=""></a>
+                <a href="https://abdulrahman-kamara.github.io/colorchanger/"> <img src="./image/colorchanger.jpeg" alt=""></a>
 
             </div>
             <div class="content">
@@ -52,7 +52,7 @@ require_once "./components/header.php";
         </div>
         <div class="card">
             <div class="imgBx">
-                <a href="https://kunta-kante.github.io/ExerciseSimplon/"><img src="./image/bg-4.jpeg" alt=""></a>
+                <a href="https://abdulrahman-kamara.github.io/ExerciseSimplon/"><img src="./image/bg-4.jpeg" alt=""></a>
 
             </div>
             <div class="content">
@@ -62,7 +62,7 @@ require_once "./components/header.php";
         </div>
         <div class="card">
             <div class="imgBx">
-                <a href="https://kunta-kante.github.io/exo-login/"><img src="./image/login.webp" alt=""></a>
+                <a href="https://abdulrahman-kamara.github.io/exo-login/"><img src="./image/login.webp" alt=""></a>
 
             </div>
             <div class="content">
@@ -73,7 +73,7 @@ require_once "./components/header.php";
         </div>
         <div class="card">
             <div class="imgBx">
-                <a href="https://kunta-kante.github.io/work/"><img src="./image/test.jpeg" alt=""></a>
+                <a href="https://abdulrahman-kamara.github.io/work/"><img src="./image/test.jpeg" alt=""></a>
 
             </div>
             <div class="content">

@@ -31,7 +31,7 @@
                 Motivé, travailleur et rigoureux, je m’intègre facilement dans un groupe et je serai un élément plein de ressources pour prendre part aux divers projets de votre entreprise. Réaliser mon alternance au sein de votre entreprise offrant des services de qualité et de précision, me permettrait d’approfondir et d’affiner mes connaissances, mais aussi d’être plus efficace et performant, en développement web et web mobile, domaine dans lequel je souhaite à terme exercer mon métier. Mon objectif pour cette alternance est d’optimiser mes compétences et mes chances de développer par la suite ma propre activité.
                 J’espère pouvoir vous exprimer mes motivations lors d’un entretien et vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
             </h6>
-            <p> <a class="para" href="https://www.canva.com/design/DAEbn6DkQyo/o4BLAsYUcBGyYMxAXwKkNw/view?website#4" download>Télécharger mon cv merci !</a></p>
+            <p> <a class="para" href="https://www.canva.com/design/DAEbn6DkQyo/o4BLAsYUcBGyYMxAXwKkNw/view?utm_content=DAEbn6DkQyo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" download>Télécharger mon cv merci !</a></p>
         </div>
     </div>
 
