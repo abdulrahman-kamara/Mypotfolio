@@ -1,6 +1,6 @@
 <div class="footer">
     <div id="link">
-        <li><a href="https://github.com/kunta-kante">
+        <li><a href="https://github.com/abdulrahman-kamara">
                 <i class="fab fa-github-square fa-1g fa-2x " aria-hidden="true"></i></a></li>
         <li><a href="https://www.instagram.com/rahmanfreetown/"><i class="fab fa-instagram fa-2g fa-2x " aria-hidden="true"></i></a></li>
 
