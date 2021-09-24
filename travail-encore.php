@@ -43,7 +43,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Ajax-json projet</h2>
-                <p>Un projet de site avec seulement Ajax et json. </p>
+                <p>Un projet de site avec uniquement Ajax et json. </p>
             </div>
         </div>
         <div class="card">
@@ -53,9 +53,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Projet-animés</h2>
-                <p>Un gros projet de site qui contient tous les langages : HTLM, PHP, JavaScript, CSS, SQL.
-                    C'est un projet qui permet de choisir ses animés préférés et de créer une liste de favoris et d'animés à regarder. Cela permet aussi de noter l'animé et de laisser un avis.
-                    Framework : Laravel, Bootstrap, Googlefont.
+                <p>Projet de site qui permet de choisir ses animés préférés et de créer une liste de favoris et d'animés à regarder. Cela permet aussi de noter l'animé et de laisser un avis.
                 </p>
             </div>
         </div>
@@ -66,7 +64,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Projet-Tesla</h2>
-                <p>Une projet que j'ai fait avec une binome!</p>
+                <p>Projet réalisé avec un binôme.</p>
             </div>
         </div>
         <div class="card">
@@ -76,9 +74,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Todo-list</h2>
-                <p>Un projet de todolist qui permet de rajouter, de modifier et de supprimer des tâches dans une base de données.
-                    Langages utilisés : HTML, CSS, JavaScript, PHP et SQL.
-                    Framework : Laravel.
+                <p>Un projet de todolist qui permet de rajouter, modifier et supprimer des tâches dans une base de données.
                 </p>
             </div>
     </section>

@@ -32,7 +32,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Projet-Africans</h2>
-                <p>a test to webflow!</p>
+                <p>A test to webflow!</p>
             </div>
         </div>
         <div class="card">
@@ -42,7 +42,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Mymusic</h2>
-                <p>Une projet que sélectonnée toute mes artists préfere et leur album favorite</p>
+                <p>Un projet de site de musique qui permet d'afficher ses artites préféré.es et leurs albums récents.</p>
             </div>
         </div>
         <div class="card">
@@ -52,7 +52,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Projet-Stage</h2>
-                <p>Les projet que j'ai proposer pandant mon stage les site elle est fait avec wordpress!</p>
+                <p>Les projets que j'ai proposé pendant mon stage. Le site est fait avec wordpress!</p>
             </div>
         </div>
         <div class="card">
@@ -62,7 +62,7 @@ require_once "./components/header.php";
             </div>
             <div class="content">
                 <h2>Projet-Tesla</h2>
-                <p>Une projet que j'ai fait avec une binome!</p>
+                <p>Projet que j'ai réalisé avec une binôme à Simplon.co.</p>
             </div>
         </div>
         <div class="card">
@@ -71,8 +71,8 @@ require_once "./components/header.php";
 
             </div>
             <div class="content">
-                <h2>Potfolio</h2>
-                <p>potfolio de mon projet!</p>
+                <h2>Portfolio</h2>
+                <p>Maquette de mon portfolio.</p>
             </div>
     </section>
 </div>
